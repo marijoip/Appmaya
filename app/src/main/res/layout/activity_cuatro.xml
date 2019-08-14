@@ -1,16 +1,350 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/TituloApp"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:paddingLeft="140dp"
-        android:fontFamily="sans-serif-black"
-        android:text="4"
-        android:textSize="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.amm12.dinamicbuttons.MainActivity">
 
-        />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llBotonera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardtransparente"
+                    android:layout_width="264dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videouno"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#00E676"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespacio"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videodos"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#FF9100"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciodos"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videotres"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#00B0FF"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciotres"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videocuatro"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#FF3D00"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciocuatro"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videocinco"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#3D5AFE"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciocinco"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videoseis"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#00E676"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespacioseis"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videosiete"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#C6FF00"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciosiete"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videoocho"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#F50057"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespacioocho"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videonueve"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#00B0FF"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespacionueve"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videodiez"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#FF3D00"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespaciodiez"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videoonce"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="#D500F9"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardespacioonce"
+                    android:layout_width="341dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/videodoce"
+                    android:layout_width="341dp"
+                    android:layout_height="171dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="16dp">
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </LinearLayout>
