@@ -1,5 +1,6 @@
 package com.example.appmaya;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -7,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import android.view.View;
 
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
@@ -28,6 +30,134 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        CardView cardView;
+        CardView cardView2;
+        CardView cardView3;
+        CardView cardView4;
+        CardView cardView5;
+        CardView cardView6;
+        CardView cardView7;
+        CardView cardView8;
+        CardView cardView9;
+        CardView cardView10;
+        CardView cardView11;
+        CardView cardView12;
+
+        cardView = findViewById(R.id.carduno);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Uno.class);
+                startActivity(a);
+
+            }
+        });
+
+        cardView2 = findViewById(R.id.carddos);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Dos.class);
+                startActivity(a);
+
+            }
+        });
+        cardView3 = findViewById(R.id.cardtres);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Tres.class);
+                startActivity(a);
+
+            }
+        });
+        cardView4 = findViewById(R.id.cardcuatro);
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Cuatro.class);
+                startActivity(a);
+
+            }
+        });
+        cardView5 = findViewById(R.id.cardcinco);
+        cardView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Cinco.class);
+                startActivity(a);
+
+            }
+        });
+        cardView6 = findViewById(R.id.cardseis);
+        cardView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Seis.class);
+                startActivity(a);
+
+            }
+        });
+        cardView7 = findViewById(R.id.cardsiete);
+        cardView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Siete.class);
+                startActivity(a);
+
+            }
+        });
+        cardView8 = findViewById(R.id.cardocho);
+        cardView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Ocho.class);
+                startActivity(a);
+
+            }
+        });
+        cardView9 = findViewById(R.id.cardnueve);
+        cardView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Nueve.class);
+                startActivity(a);
+
+            }
+        });
+        cardView10 = findViewById(R.id.carddiez);
+        cardView10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Diez.class);
+                startActivity(a);
+
+            }
+        });
+        cardView11 = findViewById(R.id.cardonce);
+        cardView11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Once.class);
+                startActivity(a);
+
+            }
+        });
+        cardView12 = findViewById(R.id.carddoce);
+        cardView12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this, Doce.class);
+                startActivity(a);
+
+            }
+        });
+
+
+
+
+
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);

@@ -10,6 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".BuscadorClass" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ListViewAdapter" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Doce" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Once" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Diez" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Nueve" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Ocho" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Siete" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Seis" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Cinco" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Cuatro" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Tres" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Dos" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Uno" android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
