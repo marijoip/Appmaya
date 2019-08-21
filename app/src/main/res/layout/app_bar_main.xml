@@ -62,6 +62,13 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
 
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/cul" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -91,6 +98,13 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
 
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_marginRight="16dp"
+                        app:srcCompat="@drawable/chi" />
                 </androidx.cardview.widget.CardView>
 
 
@@ -118,6 +132,13 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
 
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_marginRight="16dp"
+                        app:srcCompat="@drawable/astro" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -144,6 +165,13 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
 
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_marginRight="16dp"
+                        app:srcCompat="@drawable/cul" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -169,6 +197,14 @@
                     app:cardBackgroundColor="#3D5AFE"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_marginRight="16dp"
+                        app:srcCompat="@drawable/cob" />
 
                 </androidx.cardview.widget.CardView>
 
