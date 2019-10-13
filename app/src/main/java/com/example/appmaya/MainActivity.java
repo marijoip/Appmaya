@@ -1,5 +1,6 @@
 package com.example.appmaya;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.transition.Explode;
 import android.view.View;
 
 import androidx.cardview.widget.CardView;
@@ -62,7 +64,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(MainActivity.this, Uno.class);
-                startActivity(a);
+                startActivity(a); overridePendingTransition(R.transition.dos, R.transition.uno);
+
 
             }
         });
