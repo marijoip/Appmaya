@@ -68,7 +68,7 @@
                         android:layout_height="193dp"
                         android:layout_marginLeft="-240dp"
                         android:layout_marginRight="16dp"
-                    app:srcCompat="@drawable/cul" />
+                    app:srcCompat="@drawable/historia" />
 
                 </androidx.cardview.widget.CardView>
 
